@@ -17,7 +17,7 @@
   .subtitle {
     /* Specific styling for the subtitle */
     color: #666; /* Example: Lighter grey for less emphasis */
-    font-size: 1.5em; /* Example: Smaller than title */
+    font-size: 1.25em; /* Example: Smaller than title */
     font-style: italic; /* Example: Italic for stylistic choice */
   }
 
@@ -94,6 +94,24 @@
 .btn-outline-primary-custom:not(:disabled):not(.disabled):active:focus, .btn-outline-primary-custom:not(:disabled):not(.disabled).active:focus,
 .show > .btn-outline-primary-custom.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(45, 92, 153, 0.5);
+}
+
+.title-section-2 .title .material-icons {
+  color: #FF0000; /* YouTube Play Button Red */
+  vertical-align: middle; /* Aligns icon with the text baseline */
+  font-size: 74px; /* Adjust size if necessary for perfect alignment */
+  margin-bottom: -2px; /* Fine-tune vertical alignment */
+  margin-left: 4px; /* Adds some space between text and icon */
+  margin-right: 4px; /* Adds some space after icon */
+}
+
+.title-section-2 .title {
+  display: inline-flex; /* Ensures inline elements can be centered vertically */
+  align-items: center; /* Centers items vertically */
+}
+
+.title-section-2 .subtitle {
+  margin-top: 0.5rem; /* Adds space between title and subtitle */
 }
 
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
