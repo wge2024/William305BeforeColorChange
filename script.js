@@ -18,11 +18,13 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-document.addEventListener('DOMContentLoaded', function () {
-  const widget = document.getElementById('rss-widget');
-  const viewportWidth = window.innerWidth;
-
-  // Adjust height based on a desired aspect ratio
-  const height = viewportWidth * 0.5625; // Example: 16:9 ratio
-  widget.style.height = `${height}px`;
-});
+// Simulate RSS widget loading process
+setTimeout(() => {
+  // Replace the skeleton loader with the actual RSS widget HTML
+  document.getElementById("rss-widget-placeholder").outerHTML = `
+    <div>
+      <rssapp-wall id="tbrgVDoPyljZlaWS"></rssapp-wall>
+      <script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
+    </div>
+  `;
+}, 1000); // Replace 3000ms with your actual widget load time if needed

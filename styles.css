@@ -114,26 +114,16 @@
   margin-top: 0.5rem; /* Adds space between title and subtitle */
 }
 
-#rss-widget {
-  background-color: #f3f3f3; /* Placeholder background */
-  position: relative;
-  overflow: hidden;
-  border: 2px solid red;
+.rss-skeleton {
+  height: 600px; /* Adjust to match the widget's expected height */
+  background: linear-gradient(90deg, #e0e0e0 25%, #f0f0f0 50%, #e0e0e0 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
 }
 
-#rss-widget p {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 14px;
-  color: #666;
-}
-
-.responsive-widget {
-  width: 100%; /* Full width of the parent container */
-  aspect-ratio: 16 / 9; /* Set to your desired aspect ratio, e.g., 16:9 */
-  background-color: #f3f3f3; /* Optional: Placeholder background */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
 }
 
 
