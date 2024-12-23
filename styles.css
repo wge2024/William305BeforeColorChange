@@ -114,16 +114,5 @@
   margin-top: 0.5rem; /* Adds space between title and subtitle */
 }
 
-.rss-placeholder {
-  height: 600px; /* Adjust this to match your widget's expected height */
-  background-color: #eee; /* Placeholder background */
-  animation: pulse 2s infinite;
-}
-
-@keyframes pulse {
-  0% { background-color: #eee; }
-  50% { background-color: #ddd; }
-  100% { background-color: #eee; }
-}
 
 
