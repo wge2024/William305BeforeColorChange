@@ -21,6 +21,7 @@
   <!-- Bootstrap CSS CDN -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/lite-youtube-embed/src/lite-yt-embed.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -93,20 +94,31 @@
       </div>
 
       <!-- Main Section -->
-      <div class="col-12 col-lg-8">
-        <div class="hero-image d-lg-block d-none mb-5">
-          <!-- Hero Image Banner -->
-          <img src="img/Hero Image Squooshed.jpg" alt="Hero Image" class="img-fluid">
+      <div class="col-12 col-lg-8 ">
+        <div class="title-section-2 text-center  mb-5 pt-0">
+          <h6 class="title">Press Videos <span class="material-icons">smart_display</span>Twice To Play</h6>
+          <!-- <p class="subtitle">*This method consumes less mobile data</p> -->
         </div>
-        <div class="title-section text-center  mb-5">
-          <h1>Welcome to William305.com </h1>
-          <p class="lead">Discover Miami through food, culture, and lifestyle.</p>
+        <div class="youtube-section mt-1 mb-5 card border-3 " style=" text-align: center;" >
+          <lite-youtube videoid="SCvJz-WMxy4" params="autoplay=0&modestbranding=1&rel=0"></lite-youtube>
+          <p style="margin-top: 20px; font-size: 1rem; color: #555;" class=" ">
+            POC American Fusion Buffet & Sushi, Miami
+          </p>
         </div>
-
+        <div class="youtube-section mt-1 mb-5 card border-3 " style=" text-align: center;" >
+          <lite-youtube videoid="rucJ5_hxPJM" params="autoplay=0&modestbranding=1&rel=0"></lite-youtube>
+          <p style="margin-top: 20px; font-size: 1rem; color: #555;" class=" ">
+            Perry's Steak House Friday Pork Chop Lunch Special
+          </p>
+        </div>
         
-
+        <div class="youtube-section mt-1 mb-5 card border-3 " style=" text-align: center;" >
+          <lite-youtube videoid="6nGGG-6jmEo" params="autoplay=0&modestbranding=1&rel=0"></lite-youtube>
+          <p style="margin-top: 20px; font-size: 1rem; color: #555;" class=" ">
+            Cava Restaurant Lunch Buffet - Little Havana, Miami
+          </p>
+        </div>    
         
-
         <!-- Card Grid -->
         <div class="card-grid">
           <div class="row row-cols-2 row-cols-md-3 g-3 justify-content-center">
@@ -255,8 +267,8 @@
 
   <!-- Bootstrap JS and Popper.js CDN -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.js" defer></script>
   <script src="script.js"></script>
-
 
 </body>
 
