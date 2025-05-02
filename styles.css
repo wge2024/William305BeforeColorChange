@@ -118,3 +118,7 @@
 .btn {
   width: 100%;
 }
+
+lite-youtube img { 
+  loading: lazy; 
+}
