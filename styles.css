@@ -99,7 +99,7 @@
 .title-section-2 .title .material-icons {
   color: #FF0000; /* YouTube Play Button Red */
   vertical-align: middle; /* Aligns icon with the text baseline */
-  font-size: 74px; /* Adjust size if necessary for perfect alignment */
+  font-size: 54px; /* Adjust size if necessary for perfect alignment */
   margin-bottom: -2px; /* Fine-tune vertical alignment */
   margin-left: 4px; /* Adds some space between text and icon */
   margin-right: 4px; /* Adds some space after icon */
